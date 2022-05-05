@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="shortcut icon" href="img/user.png">
+  <title>InstaPet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+      <div class="logo-text">InstaPet</div>
+  </header>
+  <div class="container right-panel-active">
+    <!-- Cadastro -->
+    <div class="container__form container--signup">
+      <form action="#" class="form" id="form1">
+        <h2 class="form__title">Cadastre-se</h2>
+        <input type="text" placeholder="None" class="input" required/>
+        <input type="email" placeholder="Email" class="input" required/>
+        <input type="password" placeholder="Password" class="input" required>
+        <span class="form__span">Uma foto do seu PET</span>
+        <input type="file" placeholder="Foto do seu pet" class="input" required/>
+        <input type="button" value="Cadastrar" onClick="Entrar()">
+    </form>
+    </div>
+
+    <!-- Entrar -->
+    <div class="container__form container--signin">
+      <form action="#" class="form " id="form2">
+        <h2 class="form__title">Bem vindo ao InstaPet</h2>
+        <input type="email" placeholder="Email" class="input" required/>
+        <input type="password" placeholder="Password" class="input" required/>
+        <a href="../index.html" class="link">Esqueci a senha?</a>
+        <form>
+          <a href="../index.html">
+              <input class="btn" type="button" value="Acessar">
+          </a>
+        </form>
+      </form>
+    </div>
+
+    <!-- Overlay -->
+    <div class="container__overlay">
+      <div class="overlay">
+        <div class="overlay__panel overlay--left">
+          <button class="btn" id="signIn">Entrar</button>
+        </div>
+        <div class="overlay__panel overlay--right">
+          <button class="btn" id="signUp">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

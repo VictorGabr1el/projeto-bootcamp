@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #dde1e5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+
+header div h1{
+    color: lightseagreen;
+    padding-left: 30px;
+}
+
+#divnav{
+    display: flex;
+    align-items: center;
+}
+
+#divnav input{
+    margin-right: 15px;
+}
+
+.imgnavegacao{
+    width: 26px;
+    height: 26px;
+    margin: 0px 15px;
+}
+
+.imgnavegacao2{
+    width: 46px;
+    height: 30px;
+    margin: 0px 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 15%);
+}
+
+main{
+    background: #dde1e5;
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    height: 100%;
+}
+
+#sectionpublica{
+    width: 60%;
+    margin-left: 10%;
+}
+
+.divd1{
+    display: flex;
+    justify-content: space-around;
+    background: #f5f9f5;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.divd1 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 1%;
+}
+
+.divd1 p img{
+    width: 68%;
+    border-color: white;
+    border-style: solid;
+    border-width: 9px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 15%);
+}
+
+.divd2{
+    background: #f5f9f5;
+    padding: 14px;
+}
+
+.divd2p1{
+    display: flex;
+    align-items: center;
+}
+
+.divd2p1 img{
+    width: 65px;
+    height: 50px;
+    margin-right: 7px;
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 15%);
+}
+
+.divid3{
+    display: flex;
+    justify-content: center;
+}
+
+.divid3 img{
+    max-width: 100%;
+    width: 1000px;
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 15%);
+}
+
+#divinteracao{
+    margin-top: 8px;
+}
+
+#divinteracao img{
+    width: 22px;
+    height: 22px;
+    margin: 0px 10px;
+}
+
+.imgperfil{
+    width: 90%;
+}
+
+.div2section2 img{
+    width: 60px;
+    height: 50px;
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 15%);
+}
+
+.divid4{
+    display: flex;
+}
+
+.inputn1{
+    width: 73%;
+    margin-right: 2%;
+}
+
+.p1unico{
+    margin: 4% 0% 5% 1%;
+}
+
+.inputn2{
+    background: mediumorchid;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    color: white;
+}
+
+#sectionn2{
+    width: 30%;
+    padding-top: 30px;
+}
+
+.div1section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin: 5% 15%;
+    padding-top: 3%;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 15%);
+}
+
+.psection2 {
+    padding: 2% 0% 2% 10%;
+}
+
+.div2section2{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.div2section2 p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputnsection2{
+    background: mediumorchid;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
